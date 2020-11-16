@@ -1,0 +1,26 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="Accepted language levels" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Automatic indent detection" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Branch Context group" shouldLog="false" />
+    <notification groupId="Build Messages" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Code style settings migration" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="EntityFramework" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Error Report-dotnet" shouldLog="false" />
+    <notification groupId="Execution" displayType="NONE" shouldLog="false" />
+    <notification groupId="FromBackendWithoutPopup" displayType="NONE" shouldLog="false" />
+    <notification groupId="IDE and Plugin Updates" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="NuGet" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Plugins Suggestion" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Power Save Mode" shouldLog="false" />
+    <notification groupId="Project Startup Tasks Messages" displayType="NONE" shouldLog="false" />
+    <notification groupId="Read-only mode during debug settings" shouldLog="false" />
+    <notification groupId="Required Plugins" shouldLog="false" />
+    <notification groupId="scrolling-capabilities-debug" displayType="NONE" shouldLog="false" />
+    <notification groupId="SolutionAzureNotification" shouldLog="false" />
+    <notification groupId="System Health" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Unity Disable Auto Save" shouldLog="false" />
+    <notification groupId="Unity Enable Yaml" shouldLog="false" />
+    <notification groupId="Unity project open" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>

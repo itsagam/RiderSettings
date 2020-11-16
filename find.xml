@@ -1,0 +1,17 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
+    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
+    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
+    <option name="FILE_MASK" value="*.mxml" />
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+  </component>
+</application>
