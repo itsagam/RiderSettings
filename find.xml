@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
-    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
-    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Managers\ResourceManager.cs'" />
+    <option name="customScope" value="File '...\Assets\Scripts\Kit\Utilities\Console\Debugger.cs'" />
+    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Utilities\Console\Debugger.cs'" />
+    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Utilities\Console\Debugger.cs'" />
     <option name="FILE_MASK" value="*.mxml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
