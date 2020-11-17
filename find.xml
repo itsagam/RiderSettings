@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\Assets\Scripts\Kit\Modding\Managers\ModManager.cs'" />
-    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Modding\Managers\ModManager.cs'" />
-    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Modding\Managers\ModManager.cs'" />
+    <option name="customScope" value="Scripts" />
+    <option name="defaultScopeName" value="Scripts" />
+    <option name="SEARCH_SCOPE" value="Scripts" />
     <option name="FILE_MASK" value="*.mxml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
