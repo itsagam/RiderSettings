@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\Assets\Scripts\Kit\Modding\Parsers\UnityEngine.Object\Texture2DParser.cs'" />
-    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Modding\Parsers\UnityEngine.Object\Texture2DParser.cs'" />
-    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Modding\Parsers\UnityEngine.Object\Texture2DParser.cs'" />
+    <option name="customScope" value="File '...\Assets\Scripts\Kit\Modding\Managers\ResourceInfo.cs'" />
+    <option name="defaultScopeName" value="File '...\Assets\Scripts\Kit\Modding\Managers\ResourceInfo.cs'" />
+    <option name="SEARCH_SCOPE" value="File '...\Assets\Scripts\Kit\Modding\Managers\ResourceInfo.cs'" />
     <option name="FILE_MASK" value="*.mxml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
