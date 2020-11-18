@@ -61,7 +61,9 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="ChangesView.Revert" />
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -345,6 +347,7 @@
   <action id="NextOccurence" />
   <action id="OpenExceptionSettings" />
   <action id="OpenWinFormsCodeAction" />
+  <action id="OpenWinFormsDesignerAction" />
   <action id="OptimizeImports" />
   <action id="ParameterInfo">
     <mouse-shortcut keystroke="alt button1" />
@@ -386,15 +389,19 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="ReformatCode" />
+  <action id="RefreshStackFrame" />
   <action id="Rerun" />
   <action id="Resume" />
   <action id="RiderBackendAction-EncapsulateField" />
   <action id="RiderCollapseToDefinitions" />
+  <action id="RiderDebuggerApplyEncChagnes" />
   <action id="RiderNuGetContextPopupAction">
     <keyboard-shortcut first-keystroke="alt enter" />
     <mouse-shortcut keystroke="alt button3" />
   </action>
   <action id="RiderNuGetQuickListPopupAction" />
+  <action id="RiderNuGetToggleDependenciesExpanderAction" />
+  <action id="RiderNuGetToggleInfoExpanderAction" />
   <action id="RiderRemoveAllLineBreakpoints" />
   <action id="RiderUnitTestAppendTestsAction" />
   <action id="RiderUnitTestAppendTestsTwAction" />
@@ -446,6 +453,8 @@
   <action id="SelectIn" />
   <action id="SelectNextOccurrence" />
   <action id="SendEOF" />
+  <action id="ServiceView.GroupByContributor" />
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="SetShortcutAction">
     <keyboard-shortcut first-keystroke="alt enter" />
     <mouse-shortcut keystroke="alt button3" />
@@ -466,6 +475,9 @@
     <mouse-shortcut keystroke="alt button3" />
   </action>
   <action id="ShowNavBar" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+  </action>
   <action id="ShowReformatFileDialog" />
   <action id="ShowSettings" />
   <action id="ShowSettingsAndFindUsages" />
@@ -485,6 +497,7 @@
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="SwitchCodeToDesigner" />
   <action id="SwitchCoverage" />
   <action id="SwitchDesignerToCode" />
   <action id="Synchronize" />
@@ -548,7 +561,17 @@
   <action id="UnselectPreviousOccurrence" />
   <action id="Unwrap" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageGrouping.Directory" />
+  <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageGrouping.FileStructure" />
+  <action id="UsageGrouping.FlattenModules" />
+  <action id="UsageGrouping.Module" />
+  <action id="UsageGrouping.UsageType" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.RollbackChangedLines" />
