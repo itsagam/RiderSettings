@@ -305,12 +305,19 @@
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol" />
   <action id="GotoTypeDeclaration" />
+  <action id="Graph.ActualSize" />
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows" />
   <action id="HighlightUsagesInFile" />
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion" />
+  <action id="Images.EditExternally" />
+  <action id="Images.Editor.ActualSize" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="Images.ShowThumbnails" />
+  <action id="Images.Thumbnails.ToggleRecursive" />
+  <action id="Images.Thumbnails.UpFolder" />
   <action id="ImplementMethods" />
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
@@ -383,6 +390,9 @@
   <action id="ReSharperMoveStatementRight" />
   <action id="ReSharperNavigateTo" />
   <action id="ReSharperSelectContainingDeclaration" />
+  <action id="RebuildSolutionAction">
+    <keyboard-shortcut first-keystroke="ctrl f7" />
+  </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction">
