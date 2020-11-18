@@ -378,6 +378,7 @@
   <action id="Rerun" />
   <action id="Resume" />
   <action id="RiderBackendAction-EncapsulateField" />
+  <action id="RiderCollapseToDefinitions" />
   <action id="RiderNuGetContextPopupAction">
     <keyboard-shortcut first-keystroke="alt enter" />
     <mouse-shortcut keystroke="alt button3" />
@@ -421,6 +422,7 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="alt space" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="SearchEverywhere.CompleteCommand" />
   <action id="SearchEverywhere.NavigateToNextGroup">
