@@ -78,6 +78,7 @@
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
   <action id="Console.Open" />
   <action id="CopyPaths">
@@ -93,6 +94,7 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DumpLookupElementWeights" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -107,9 +109,21 @@
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelection" />
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl delete" />
   </action>
@@ -124,9 +138,16 @@
   <action id="EditorDeleteToWordEnd" />
   <action id="EditorFocusGutter" />
   <action id="EditorJoinLines" />
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorPasteFromX11" />
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
@@ -140,6 +161,12 @@
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorShowGutterIconTooltip" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode" />
   <action id="EditorToggleInsertState" />
@@ -305,12 +332,14 @@
   <action id="ProjectViewChangeView" />
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc" />
+  <action id="ReSharperGotoContainingDeclaration" />
   <action id="ReSharperGotoImplementation" />
   <action id="ReSharperGotoNextErrorInSolution" />
   <action id="ReSharperGotoPrevErrorInSolution" />
   <action id="ReSharperMoveStatementLeft" />
   <action id="ReSharperMoveStatementRight" />
   <action id="ReSharperNavigateTo" />
+  <action id="ReSharperSelectContainingDeclaration" />
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction" />
@@ -339,6 +368,7 @@
   <action id="RiderUnitTestRunCurrentSessionTwAction" />
   <action id="RiderUnitTestRunSolutionAction" />
   <action id="RiderUnitTestRunSolutionTwAction" />
+  <action id="RiderUnitTestRunTreeTwAction" />
   <action id="RiderUnitTestSessionAbortAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsTwAction" />
