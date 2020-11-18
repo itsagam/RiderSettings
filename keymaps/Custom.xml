@@ -290,7 +290,6 @@
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="NextOccurence" />
-  <action id="NextProjectWindow" />
   <action id="OptimizeImports" />
   <action id="ParameterInfo" />
   <action id="PasteMultiple">
@@ -302,7 +301,6 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="PreviousOccurence" />
-  <action id="PreviousProjectWindow" />
   <action id="Print" />
   <action id="ProjectViewChangeView" />
   <action id="QuickImplementations" />
@@ -319,7 +317,6 @@
   <action id="ReformatCode" />
   <action id="Rerun" />
   <action id="Resume" />
-  <action id="RiderBackendAction-EncapsulateField" />
   <action id="RiderNuGetQuickListPopupAction" />
   <action id="RiderRemoveAllLineBreakpoints" />
   <action id="RiderUnitTestAppendTestsAction" />
