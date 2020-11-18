@@ -15,12 +15,16 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateDatabaseToolWindow" />
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateErrorsInSolutionToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 3" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateInspectionResultsToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
   <action id="ActivateNuGetToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 1" />
@@ -28,6 +32,7 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow" />
   <action id="ActivateUnitTestsToolWindow" />
   <action id="ActivateUnityToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 2" />
@@ -61,7 +66,9 @@
   <action id="ChooseDebugConfiguration" />
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
-  <action id="CodeCleanup" />
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="CodeCompletion" />
   <action id="CodeInspection.OnEditor" />
   <action id="CollapseAllRegions">
@@ -119,6 +126,7 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
@@ -239,7 +247,7 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="Git.Branches" />
   <action id="GotoAction" />
@@ -277,6 +285,7 @@
   <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoFile" />
   <action id="GotoImplementation" />
@@ -328,8 +337,9 @@
   <action id="OptimizeImports" />
   <action id="ParameterInfo">
     <mouse-shortcut keystroke="alt button1" />
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
+  <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
@@ -351,7 +361,7 @@
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button1" />
-    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="ReSharperGotoContainingDeclaration" />
   <action id="ReSharperGotoImplementation" />
@@ -367,6 +377,7 @@
   <action id="ReformatCode" />
   <action id="Rerun" />
   <action id="Resume" />
+  <action id="RiderBackendAction-EncapsulateField" />
   <action id="RiderNuGetContextPopupAction">
     <keyboard-shortcut first-keystroke="alt enter" />
     <mouse-shortcut keystroke="alt button3" />
@@ -448,7 +459,9 @@
   <action id="ShowUsages">
     <mouse-shortcut keystroke="control button3" />
   </action>
-  <action id="SilentCodeCleanup" />
+  <action id="SilentCodeCleanup">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="SmartStepInto" />
   <action id="SmartTypeCompletion" />
   <action id="StepInto" />
@@ -470,33 +483,43 @@
   </action>
   <action id="ToggleBookmark0">
     <keyboard-shortcut first-keystroke="shift alt 0" />
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
   </action>
   <action id="ToggleBookmark1">
     <keyboard-shortcut first-keystroke="shift alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
   <action id="ToggleBookmark2">
     <keyboard-shortcut first-keystroke="shift alt 2" />
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
   <action id="ToggleBookmark3">
     <keyboard-shortcut first-keystroke="shift alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
   </action>
   <action id="ToggleBookmark4">
     <keyboard-shortcut first-keystroke="shift alt 4" />
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
   </action>
   <action id="ToggleBookmark5">
     <keyboard-shortcut first-keystroke="shift alt 5" />
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
   </action>
   <action id="ToggleBookmark6">
     <keyboard-shortcut first-keystroke="shift alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl alt 6" />
   </action>
   <action id="ToggleBookmark7">
     <keyboard-shortcut first-keystroke="shift alt 7" />
+    <keyboard-shortcut first-keystroke="ctrl alt 7" />
   </action>
   <action id="ToggleBookmark8">
     <keyboard-shortcut first-keystroke="shift alt 8" />
+    <keyboard-shortcut first-keystroke="ctrl alt 8" />
   </action>
   <action id="ToggleBookmark9">
     <keyboard-shortcut first-keystroke="shift alt 9" />
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleBreakpointEnabled" />
