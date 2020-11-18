@@ -2,6 +2,7 @@
   <component name="CodeLensSettings" defaultAnchor="Right">
     <anchor>
       <map>
+        <entry key="Unity Assets Usage" value="Right" />
         <entry key="Unity implicit usage" value="Default" />
         <entry key="VcsAuthorCodeLensProvider" value="Default" />
       </map>
