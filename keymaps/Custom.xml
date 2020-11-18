@@ -57,9 +57,7 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="ChangesView.Revert">
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
+  <action id="ChangesView.Revert" />
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -250,6 +248,9 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="Git.Branches" />
+  <action id="Git.Rename.Local.Branch" />
+  <action id="Git.Reword.Commit" />
+  <action id="Git.Stage.Revert" />
   <action id="GotoAction" />
   <action id="GotoBookmark0">
     <keyboard-shortcut first-keystroke="alt 0" />
@@ -373,7 +374,9 @@
   <action id="ReSharperSelectContainingDeclaration" />
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
-  <action id="Refactorings.QuickListPopupAction" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="ReformatCode" />
   <action id="Rerun" />
   <action id="Resume" />
